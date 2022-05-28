@@ -4,16 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a44f6f6-038b-4088-90e2-e51639b84ceb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="2a44f6f6-038b-4088-90e2-e51639b84ceb" name="Changes" comment="cambio">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/eoi/jdbc/StudentManagementMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/eoi/jdbc/StudentManagementMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/eoi/jdbc/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/eoi/jdbc/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/eoi/jdbc/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/eoi/jdbc/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/eoi/jdbc/repository/StudentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/eoi/jdbc/repository/StudentRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/eoi/jdbc/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/eoi/jdbc/service/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="module-info" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29kwACovKzKfhG505q5iZj3dRA9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -24,7 +42,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_directory_selection": "D:/Descargas/JAVA/BASE DE DATOS/MAVEN/gestion_estudiantes/src/main/java/es/eoi/jdbc",
+    "last_opened_file_path": "D:/Descargas/JAVA/Variables/src/IntroduciendoDatos.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -36,6 +59,21 @@
       <option name="presentableId" value="Default" />
       <updated>1653670245788</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creacion de clases y organizacion en paquetes">
+      <created>1653673433402</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653673433402</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cambio">
+      <created>1653673992458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653673992458</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -48,5 +86,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creacion de clases y organizacion en paquetes" />
+    <MESSAGE value="cambio" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambio" />
   </component>
 </project>

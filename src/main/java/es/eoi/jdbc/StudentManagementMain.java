@@ -34,6 +34,7 @@ public class StudentManagementMain {
 
         //Main
         while(!dato.equals("0")) {
+            System.out.println("\n--------------------------");
             System.out.println("GESTION INSTITUTO V1");
             System.out.println("--------------------------");
             System.out.println("1 - Listado Alumnos");

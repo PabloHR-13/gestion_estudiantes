@@ -7,6 +7,7 @@ import es.eoi.jdbc.entity.Student;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Scanner;
 
 
 public class StudentRepositoryImpl implements StudentRepository{
@@ -72,7 +73,7 @@ public class StudentRepositoryImpl implements StudentRepository{
     public boolean delete(String id) {
             try{
             Statement st = StudentManagementMain.cn.createStatement();
-            String querystudent = "delete * from student where id="+id+";";
+            String querystudent = "delete from student where id="+id+";";
 
             st.executeUpdate(querystudent);
             System.out.println("El alumno con id: " + id + " ha sido eliminado");
@@ -89,10 +90,56 @@ public class StudentRepositoryImpl implements StudentRepository{
 
     @Override
     public Student update(Student student) {
+        String dato="";
+        String todo="";
+        String querystudent="";
+        while(!dato.equals("0")) {
+            System.out.println("Aspectos a modificar: ");
+            System.out.println("-------------------------");
+            System.out.println("1 - nombre: ");
+            System.out.println("2 - apellido: ");
+            System.out.println("3 - cumple: ");
+            System.out.println("0 - salir");
+            System.out.println("-------------------------");
 
+            //Escaner
+            Scanner mientrada = new Scanner(System.in);
+            System.out.println("Que desea hacer: ");
+            dato = mientrada.nextLine();
 
+            try {
+                Statement st = StudentManagementMain.cn.createStatement();
 
-
+                switch (dato) {
+                    case "0":
+                        System.out.println("Hasta la proxima modificacion");
+                        break;
+                    case "1":
+                        System.out.println("Que NOMBRE desea establecer: ");
+                        todo=mientrada.nextLine();
+                        querystudent = "update student set name='"+todo+"' where id="+student.getId()+";";
+                        st.executeUpdate(querystudent);
+                        break;
+                    case "2":
+                        System.out.println("Que APELLIDO desea establecer: ");
+                        todo=mientrada.nextLine();
+                        querystudent = "update student set surname='"+todo+"' where id="+student.getId()+";";
+                        st.executeUpdate(querystudent);
+                        break;
+                    case "3":
+                        System.out.println("Que CUMPLE desea establecer: ");
+                        todo=mientrada.nextLine();
+                        querystudent = "update student set birth_date='"+todo+"' where id="+student.getId()+";";
+                        st.executeUpdate(querystudent);
+                        break;
+                    default:
+                        System.out.println("el numero introducido no esta entre 1 y 3");
+                        break;
+                }
+            }catch (SQLException e){
+                e.fillInStackTrace();
+            }
+        }
 
 
         return null;

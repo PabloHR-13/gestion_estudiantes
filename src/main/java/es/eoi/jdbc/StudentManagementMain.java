@@ -89,13 +89,24 @@ public class StudentManagementMain {
 
                     break;
                 case "4":
+                    System.out.println("Introduce el id que quieras modificar: ");
+                    id=Integer.parseInt(entrada.nextLine());
+                    alumno = studentRepository.findById(id);
+
+                    if (alumno != null) {
+                        studentRepository.update(alumno);
+                        System.out.println("El alumno fue modificado correctamente");
+
+                    }else {
+                        System.out.println("El alumno con id: "+id+" no existe");
+                    }
 
                     break;
 
                 case "5":
                     String idd;
-                    System.out.println("Introduce el id que quieras buscar: ");
-                    idd=entrada.nextLine();
+                    System.out.println("Introduce el id que quieras ELIMINAR: ");
+                    idd=(entrada.nextLine());
                     studentRepository.delete(idd);
                     break;
                 default:

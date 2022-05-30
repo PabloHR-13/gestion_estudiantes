@@ -3,34 +3,51 @@ package es.eoi.jdbc.service;
 import es.eoi.jdbc.entity.Student;
 import es.eoi.jdbc.repository.StudentRepository;
 
-import java.util.List;
+
 
 public class StudentService implements StudentRepository {
+
+    private final StudentRepository repository;
+
+
+
+
     //Constructor
-
-
-    public StudentService() {
-
+    public StudentService(StudentRepository repository) {
+        this.repository = repository;
     }
+
 
     //Metodos
-    public Student findById(String id) {
+    @Override
+    public Student findById(int id) {
         return null;
     }
 
-    public List<Student> findAll() {
+    @Override
+    public void findAll() {
+
+    }
+
+    @Override
+    public Student create(int id, String nombre, String apellido, String cumple) {
         return null;
     }
 
-    public Student create() {
-        return null;
-    }
-
+    @Override
     public boolean delete(String id) {
         return false;
     }
 
-    public Student update() {
+    @Override
+    public Student update(Student student) {
         return null;
     }
+
+    @Override
+    public void insert(Student student) {
+
+    }
+
+
 }

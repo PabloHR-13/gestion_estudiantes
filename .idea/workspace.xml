@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a44f6f6-038b-4088-90e2-e51639b84ceb" name="Changes" comment="cambio">
+    <list default="true" id="2a44f6f6-038b-4088-90e2-e51639b84ceb" name="Changes" comment="Avance Domingo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/eoi/jdbc/StudentManagementMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/eoi/jdbc/StudentManagementMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/eoi/jdbc/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/eoi/jdbc/entity/Student.java" afterDir="false" />
@@ -39,17 +39,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "D:/Descargas/JAVA/BASE DE DATOS/MAVEN/gestion_estudiantes/src/main/java/es/eoi/jdbc",
-    "last_opened_file_path": "D:/Descargas/JAVA/Variables/src/IntroduciendoDatos.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/Descargas/JAVA/BASE DE DATOS/MAVEN/gestion_estudiantes/src/main/java/es/eoi/jdbc&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Descargas/JAVA/BASE DE DATOS/MAVEN/jdbc_ej1/src/main/java/Ejercicio1.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="StudentManagementMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="es.eoi.jdbc.StudentManagementMain" />
+      <module name="gestion_estudiantes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.eoi.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StudentManagementMain" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653673992458</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Avance Sabado">
+      <created>1653737036296</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653737036296</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +117,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion de clases y organizacion en paquetes" />
     <MESSAGE value="cambio" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambio" />
+    <MESSAGE value="Avance Sabado" />
+    <MESSAGE value="Avance Domingo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avance Domingo" />
   </component>
 </project>
